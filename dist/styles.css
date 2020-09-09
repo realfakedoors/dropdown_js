@@ -1,0 +1,62 @@
+html {
+  font-family: "Roboto Condensed", sans-serif;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  margin: 22px auto;
+  padding: 12px;
+}
+
+.navbar-item {
+  padding: 5px 8px;
+  margin: 5px;
+
+  font-size: 25px;
+
+  border: 1px solid grey;
+}
+
+.dropdown {
+  position: relative;
+  
+  display: flex;
+  flex-direction: column;
+  width: 180px;
+  margin: 8px 0;
+  
+  border: 1px solid darkgrey;
+}
+
+.dropdown-item {
+  padding: 6px;
+  
+  font-size: 20px;
+  
+  border-bottom: 1px solid darkgrey;
+}
+
+.dropdown-item:last-child     { border-bottom: none;   }
+
+/* Colors by dhzuehlke @ colourlovers.com */
+/* https://www.colourlovers.com/palette/4756476/everything_nice_4u */
+
+.navbar-item:nth-child(1)       { color: #6eade0; }
+.navbar-item:nth-child(1):hover { background-color: #6eade0; }
+
+.navbar-item:nth-child(2)       { color: #fa9c2a; }
+.navbar-item:nth-child(2):hover { background-color: #fa9c2a; }
+
+.navbar-item:nth-child(3)       { color: #db6c3f; }
+.navbar-item:nth-child(3):hover { background-color: #db6c3f; }
+
+.navbar-item:nth-child(4)       { color: #ab4e2f; }
+.navbar-item:nth-child(4):hover { background-color: #ab4e2f; }
+
+.navbar-item:nth-child(5)       { color: #291f1e; }
+.navbar-item:nth-child(5):hover { background-color: #291f1e; }
+
+.navbar-item:hover,
+.dropdown-item:hover            { color: white; }
